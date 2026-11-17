@@ -6,8 +6,11 @@
     "start": "node server.cjs"
   },
   "dependencies": {
+    "convex": "^1.50.0",
     "express": "^4.19.2",
     "nodemailer": "^6.9.13"
+  },
+  "allowScripts": {
+    "esbuild@0.27.0": true
   }
 }
-
