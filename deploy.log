@@ -1,0 +1,3 @@
+npm notice run npx
+npm notice run 'convex' deploy
+✖ No CONVEX_DEPLOYMENT set, run `npx convex dev` to configure a Convex project
