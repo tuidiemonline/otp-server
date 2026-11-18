@@ -1,18 +1,18 @@
 {
-  "name": "otp-server",
+  "name": "tuidiemonline-otp-server",
   "version": "1.0.0",
+  "private": true,
   "type": "commonjs",
+  "main": "server.cjs",
   "scripts": {
-    "start": "node server.cjs"
+    "start": "node server.cjs",
+    "convex:deploy": "convex deploy"
   },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
-    "convex": "^1.50.0",
-    "express": "^4.19.2"
-  },
-  "allowScripts": {
-    "esbuild@0.27.0": true
+    "express": "^4.19.2",
+    "convex": "^1.0.0"
   }
 }
